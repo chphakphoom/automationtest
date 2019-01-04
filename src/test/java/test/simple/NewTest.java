@@ -44,6 +44,7 @@ public class NewTest {
         System.setProperty("webdriver.chrome.driver", "/home/phakphoom/chromedriver");
         driver  = new ChromeDriver(options);
 
+        //
         this.driver.manage().window().maximize();
         this.driver.manage().deleteAllCookies();
         this.driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
